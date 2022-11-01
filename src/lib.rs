@@ -1,4 +1,5 @@
 mod saddle_points;
+mod lsogram;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right

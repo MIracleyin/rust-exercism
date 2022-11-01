@@ -19,7 +19,6 @@ pub fn find_saddle_points(input: &[Vec<u64>]) -> Vec<(usize, usize)> {
             if value >= *max && value <= *min {
                 saddle_points.push((i, j));
             }
-            
         }
     }
     saddle_points
