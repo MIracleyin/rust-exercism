@@ -2,6 +2,7 @@ mod saddle_points;
 mod lsogram;
 mod say;
 mod run_length_encoding;
+mod ISBN;
 
 
 pub fn add(left: usize, right: usize) -> usize {
