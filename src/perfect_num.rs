@@ -23,11 +23,14 @@ pub fn classify(num: u64) -> Option<Classification> {
     if num == 0 {
         return None
     }
-    let div = get_divisors(num);
-    let sum_of_div:u64 = div.iter().sum();
+
+    // let div = get_divisors(num);
+    // let sum_of_div:u64 = div.iter().sum();
+
+    let sum: u64 = (1..num).filter(|i| num % i == 0).sum(); // using clouseure
 
     
-    let res = match sum_of_div.cmp(&num) {
+    let res = match sum.cmp(&num) {
         Ordering::Less => Classification::Deficient,
         Ordering::Greater => Classification::Abundant,
         Ordering::Equal => Classification::Perfect
