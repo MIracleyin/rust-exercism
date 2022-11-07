@@ -5,7 +5,7 @@ mod run_length_encoding;
 mod ISBN;
 mod simple_linked_list;
 mod sum_of_mul;
-
+mod perfect_num;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
