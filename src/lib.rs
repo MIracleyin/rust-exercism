@@ -2,11 +2,12 @@ mod saddle_points;
 mod lsogram;
 mod say;
 mod run_length_encoding;
-mod ISBN;
+mod isbn;
 mod simple_linked_list;
 mod sum_of_mul;
 mod perfect_num;
 mod grains;
+mod clock;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
