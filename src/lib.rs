@@ -8,10 +8,18 @@ mod sum_of_mul;
 mod perfect_num;
 mod grains;
 mod clock;
+mod dot_dsl;
+
+
+#[macro_use]
+extern crate maplit;
+
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
+
+
 
 #[cfg(test)]
 mod tests {
