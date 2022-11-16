@@ -10,6 +10,7 @@ mod grains;
 mod clock;
 mod dot_dsl;
 
+mod hamming;
 
 #[macro_use]
 extern crate maplit;
