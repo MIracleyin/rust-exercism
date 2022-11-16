@@ -9,8 +9,8 @@ mod perfect_num;
 mod grains;
 mod clock;
 mod dot_dsl;
-
 mod hamming;
+mod pascals;
 
 #[macro_use]
 extern crate maplit;
