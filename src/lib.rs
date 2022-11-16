@@ -11,6 +11,7 @@ mod clock;
 mod dot_dsl;
 mod hamming;
 mod pascals;
+mod scrabble_score;
 
 #[macro_use]
 extern crate maplit;
