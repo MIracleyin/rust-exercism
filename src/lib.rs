@@ -12,6 +12,7 @@ mod dot_dsl;
 mod hamming;
 mod pascals;
 mod scrabble_score;
+mod pangram;
 
 #[macro_use]
 extern crate maplit;
