@@ -13,6 +13,8 @@ mod hamming;
 mod pascals;
 mod scrabble_score;
 mod pangram;
+// mod passio;
+mod nucleotide_count;
 
 #[macro_use]
 extern crate maplit;
